@@ -5,6 +5,406 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Penguin Fashion</title>
+    <!---Tailwind link-->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   </head>
-  <body></body>
+  <body>
+      <!--Navber-->
+    <nav class="bg-indigo-700 shadow-lg">
+        <div class="container mx-auto">
+         <div class="sm:flex justify-around">
+             <!--site tittle-->
+             <a href="#" class="text-white text-3xl font-bold p-3">Fashion zone</a>
+             <!--Menu items-->
+             <ul class="text-gray-400 sm:self-center text-xl border-t sm:border-none">
+                 <li class="sm:inline-block">
+                     <a href="#" class="p-3 text-white">Home</a>
+                 </li>
+                 <li class="sm:inline-block">
+                     <a href="#" class="p-3 text-white">Woman</a>
+                 </li>
+                 <li class="sm:inline-block">
+                     <a href="#" class="p-3 text-white">Man</a>
+                 </li>
+                 <li class="sm:inline-block">
+                     <a href="#" class="p-3 text-white">Contact</a>
+                 </li>
+             </ul>
+         </div>
+        </div>
+    </nav>
+    <header class="lg-bg-yellow-100 pb-32 pt-12">
+      <section
+        class="container md:flex items-center justify-around mx-auto py-12 px-3"
+      >
+        <div class="space-y-4">
+          <h1 class="text-7xl font-bold uppercase">
+            <span class="text-yellow-400">Be the Penguin </span>
+            <span class="text-gray-800"><br />of winter</span>
+          </h1>
+          <p class="w-2/3">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi
+            voluptatibus expedita natus fugiat doloremque necessitatibus
+          </p>
+          <button
+            class="text-white uppercase px-7 py-4 bg-green-500 rounded-xl font-medium bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="inline h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+              />
+            </svg>
+            Buy Now
+          </button>
+        </div>
+        <div class="pt-8 sm:pt-0">
+          <img src="images/model.png" />
+        </div>
+      </section>
+    </header>
+    <main>
+      <!--woman jacket-->
+      <section class="container px-8 mx-auto">
+        <h2 class="text-3xl uppercase text-gray-800 font-bold">
+          Woman jacket
+        </h2>
+        <!--woman jacket container-->
+        <div class="grid lg:grid-cols-3 gap-7">
+          <!--Singel coat item-->
+          <div class="shadow-lg rounded-2xl p-4 space-y-4">
+            <div class="bg-gray-200 rounded-2xl py-6">
+              <img class="h-64 mx-auto" src="images/jacket-1.png" />
+            </div>
+            <h4 class="text-3xl font-bold">Yellow Coat jacket</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Pariatur, dicta
+            </p>
+            <div class="lg:flex justify-between">
+              <h2 class="text-3xl font-black text-yellow-400">$250</h2>
+              <button
+                class="text-white uppercase px-7 py-4 bg-green-500 rounded-xl font-medium bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <!--2nd coat item-->
+          <div class="shadow-lg rounded-2xl p-4 space-y-4">
+            <div class="bg-gray-200 rounded-2xl py-6">
+              <img class="h-64 mx-auto" src="images/jacket-2.png" />
+            </div>
+            <h4 class="text-3xl font-bold">Yellow Coat jacket</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Pariatur, dicta
+            </p>
+            <div class="lg:flex justify-between">
+              <h2 class="text-3xl font-black text-yellow-400">$300</h2>
+              <button
+                class="text-white uppercase px-7 py-4 bg-green-500 rounded-xl font-medium bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <!--3rd coat item-->
+          <div class="shadow-lg rounded-2xl p-4 space-y-4">
+            <div class="bg-gray-200 rounded-2xl py-6">
+              <img class="h-64 mx-auto" src="images/jacket-3.png" />
+            </div>
+            <h4 class="text-3xl font-bold">Yellow Coat jacket</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Pariatur, dicta
+            </p>
+            <div class="lg:flex justify-between">
+              <h2 class="text-3xl font-black text-yellow-400">$350</h2>
+              <button
+                class="text-white uppercase px-7 py-4 bg-green-500 rounded-xl font-medium bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+      </section>
+      <br>
+      <!--man jacket section-->
+      <section class="container px-8 mx-auto">
+        <h2 class="text-3xl uppercase text-gray-800 font-bold">
+          Man jacket
+        </h2>
+        <!--Man jacket container-->
+        <div class="grid lg:grid-cols-3 gap-7">
+          <!--Singel coat item-->
+          <div class="shadow-lg rounded-2xl p-4 space-y-4">
+            <div class="bg-gray-200 rounded-2xl py-6">
+              <img class="h-64 mx-auto" src="images/jacket-4.png" />
+            </div>
+            <h4 class="text-3xl font-bold">Yellow Coat jacket</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Pariatur, dicta
+            </p>
+            <div class="lg:flex justify-between">
+              <h2 class="text-3xl font-black text-yellow-400">$350</h2>
+              <button
+                class="text-white uppercase px-7 py-4 bg-green-500 rounded-xl font-medium bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="shadow-lg rounded-2xl p-4 space-y-4">
+            <div class="bg-gray-200 rounded-2xl py-6">
+              <img class="h-64 mx-auto" src="images/jacket-5.png" />
+            </div>
+            <h4 class="text-3xl font-bold">Yellow Coat jacket</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Pariatur, dicta
+            </p>
+            <div class="lg:flex justify-between">
+              <h2 class="text-3xl font-black text-yellow-400">$400</h2>
+              <button
+                class="text-white uppercase px-7 py-4 bg-green-500 rounded-xl font-medium bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+          <div class="shadow-lg rounded-2xl p-4 space-y-4">
+            <div class="bg-gray-200 rounded-2xl py-6">
+              <img class="h-64 mx-auto" src="images/jacket-6.png" />
+            </div>
+            <h4 class="text-3xl font-bold">Yellow Coat jacket</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Pariatur, dicta
+            </p>
+            <div class="lg:flex justify-between">
+              <h2 class="text-3xl font-black text-yellow-400">$450</h2>
+              <button
+                class="text-white uppercase px-7 py-4 bg-green-500 rounded-xl font-medium bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="inline h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                Buy Now
+              </button>
+            </div>
+          </div>
+      <!--Contact-->
+     <section class="container font-medium">
+        <div class="w-full md:w-96 md:max-w-full mx-auto ">
+            <div class="p-6 border border-gray-300 sm:rounded-md">
+              <form method="POST" action="https://herotofu.com/start">
+                <label class="block mb-6">
+                  <span class="text-gray-700">Your name</span>
+                  <input
+                    type="text"
+                    name="name"
+                    class="
+                      block
+                      w-full
+                      mt-1
+                      border-gray-300
+                      rounded-md
+                      shadow-sm
+                      focus:border-indigo-300
+                      focus:ring
+                      focus:ring-indigo-200
+                      focus:ring-opacity-50
+                    "
+                    placeholder=""
+                  />
+                </label>
+                <label class="block mb-6">
+                  <span class="text-gray-700">Email address</span>
+                  <input
+                    name="email"
+                    type="email"
+                    class="
+                      block
+                      w-full
+                      mt-1
+                      border-gray-300
+                      rounded-md
+                      shadow-sm
+                      focus:border-indigo-300
+                      focus:ring
+                      focus:ring-indigo-200
+                      focus:ring-opacity-50
+                    "
+                    placeholder=""
+                    required
+                  />
+                </label>
+                <label class="block mb-6">
+                  <span class="text-gray-700">Phone number</span>
+                  <input
+                    name="email"
+                    type="email"
+                    class="
+                      block
+                      w-full
+                      mt-1
+                      border-gray-300
+                      rounded-md
+                      shadow-sm
+                      focus:border-indigo-300
+                      focus:ring
+                      focus:ring-indigo-200
+                      focus:ring-opacity-50
+                    "
+                    placeholder=""
+                    required
+                  />
+                </label>
+                <label class="block mb-6">
+                  <span class="text-gray-700">Message</span>
+                  <textarea
+                    name="message"
+                    class="
+                      block
+                      w-full
+                      mt-1
+                      border-gray-300
+                      rounded-md
+                      shadow-sm
+                      focus:border-indigo-300
+                      focus:ring
+                      focus:ring-indigo-200
+                      focus:ring-opacity-50
+                    "
+                    rows="3"
+                    placeholder=""
+                  ></textarea>
+                </label>
+                <div class="mb-6">
+                  <button
+                    type="submit"
+                    class="
+                      h-10
+                      px-5
+                      text-indigo-100
+                      bg-indigo-700
+                      rounded-lg
+                      transition-colors
+                      duration-150
+                      focus:shadow-outline
+                      hover:bg-indigo-800
+                    "
+                  >
+                    submit
+                  </button>
+                </div>
+                
+              </form>
+            </div>
+          </div>
+     </section>
+     
+    </main>
+    <footer>
+        <p class="text-center uppercase text-red-500">@2022|Buy from us</p>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
 </html>
